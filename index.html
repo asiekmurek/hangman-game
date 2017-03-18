@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   
+    <title>Hangman Game</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Source+Sans+Pro" rel="stylesheet">
+	
+	
+  </head>
+  <body>
+		
+		<div id="myModal" class="modal fade ">				
+			 <div class="modal-footer col-sm-6 col-md-9">
+				<button type="button" class="btn playBtn" data-dismiss="modal">Play the Game</button>   
+			</div>	
+		</div>
+
+		<div class="container">
+			<nav class="navbar-inverse navbar-static-top header">
+				<p class="col-sm-6 col-md-7 text-header"> HANGMAN GAME</p>	
+				
+			</nav>
+		</div>
+				
+		<div class="container content" >
+			<div class="row">
+				<div class="btn-toolbar md col-sm-6 col-md-6" role="toolbar">
+					<button class="letter-button btn btn-default L" id="A">A</button>
+					<button class="letter-button btn btn-default L" id="B">B</button>
+					<button class="letter-button btn btn-default L" id="C">C</button>
+					<button class="letter-button btn btn-default L" id="D">D</button>
+					<button class="letter-button btn btn-default L" id="E">E</button>
+					<button class="letter-button btn btn-default L" id="F">F</button>
+					<button class="letter-button btn btn-default L" id="G">G</button>
+					<button class="letter-button btn btn-default L" id="H">H</button>
+					<button class="letter-button btn btn-default L" id="I">I</button>
+					<button class="letter-button btn btn-default L" id="J">J</button>
+					<button class="letter-button btn btn-default L" id="K">K</button>
+					<button class="letter-button btn btn-default L" id="L">L</button>
+					<button class="letter-button btn btn-default L" id="Ł">Ł</button>
+					<button class="letter-button btn btn-default L" id="M">M</button>
+					<button class="letter-button btn btn-default L" id="N">N</button>
+					<button class="letter-button btn btn-default L" id="O">O</button>
+					<button class="letter-button btn btn-default L" id="P">P</button>
+					<button class="letter-button btn btn-default L" id="R">R</button>
+					<button class="letter-button btn btn-default L" id="S">S</button>
+					<button class="letter-button btn btn-default L" id="T">T</button>
+					<button class="letter-button btn btn-default L" id="U">U</button>
+					<button class="letter-button btn btn-default L" id="W">W</button>
+					<button class="letter-button btn btn-default L" id="Y">Y</button>
+					<button class="letter-button btn btn-default L" id="Z">Z</button>		
+				</div>
+
+				<div class="md col-sm-6 col-md-6">
+					<div id="answer-container">
+					</div>
+						
+					<div>	
+						<canvas id="myCanvas" width="500" height="500" style="border:1px solid black;"></canvas>
+					</div>			
+				</div>
+			</div>
+		</div>
+		
+		<div id="myModal2" class="modal fade ">				
+			 <div class="modal-footer col-sm-6 col-md-10">
+				<p> CONGATULATIONS! </br> YOU ARE THE WINNER!</p> 
+			</div>	
+		</div>
+		
+		<div id="myModal3" class="modal fade ">				
+			 <div class="modal-footer col-sm-6 col-md-8">
+				<p> GAME OVER  </p>   
+			</div>	
+		</div>
+	
+		<nav class="footer">
+			<p class="text-center"> Copyright by @asiekmurek. All Rights Reserved. </p>	
+		</nav>
+	
+		
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+	<script src="./canvas/canvas.js"></script>
+	<script src="./js/app.js"></script>
+	
+  </body>
+</html>
