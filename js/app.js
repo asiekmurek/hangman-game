@@ -54,8 +54,7 @@ $(document).ready(function() {
 								$('.letter-button').unbind("click");
 						}					
 			} else {		// nie - zmniejsz ilosc szans, narysuj wisielca					
-				printHangman( ++missed );	
-				console.log('dupa')				
+				printHangman( ++missed );				
 					count++;
 					
 				if (count == 7){  // dozwolona ilość pomyłek
